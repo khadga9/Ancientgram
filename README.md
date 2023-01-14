@@ -1,6 +1,6 @@
 # Ancientgram 1.0.0
 # Telegram Bot Api Framework for Python
-This is a really simple Framework for creating bots
+A simple way for creating bots in Telegram using Python
 # Install
 ```
 pip3 install ancientgram
@@ -9,7 +9,7 @@ pip3 install ancientgram
 ```
 from ancientgram import ancientgram
 
-bot = ancientgram.Ancientgram("5765870339:AAFCkjZbvpRGZQoNXSBo2wzE3oAque8XEaE")
+bot = ancientgram.Ancientgram("123456:your_token")
 bot.getMe()
 
 def handle_update(update):
