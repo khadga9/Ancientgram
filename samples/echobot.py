@@ -1,7 +1,6 @@
 from ancientgram import ancientgram
 
 bot = ancientgram.Ancientgram("123456:your_token")
-bot.getMe()
 
 def handle_update(update):
     print(update)
